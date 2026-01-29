@@ -148,4 +148,4 @@ adduser ssh-user
 cd /home/ssh-user
 mkdir .ssh
 cd .ssh
-echo "$$(pub_key)$$" > authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDsptjW30R0+NX0eU8jggplU3VfJ9rGZM7zXYjSyLyvYnZdILaSTe9kmF6d3VK9mgPo8o6cz1Me1G77oMDqoKk4xV0CWEqE7Hpl8sWsL/Em6D4/fZSBAX3MzuNW1s7cZd7shWMffNDZNiAv+x/cVkhTDh7zqNR88h9E1EkqHRa+8r2Wu4xNCfeHo1q/9bMjUxxRdUTOt3QKjSE8Hyb3Gaa8Lny0UymABx9Zg1XC3X1GOazly++iFLDeKV4IW54DBqjzhqLgMC3rGBTODPC66mG+O4FwNWUJFAdwili0BRClB5c7b4AJVEtYzOG9sBh9cMcos7JB9CeAj+1vPFz+XraT" > authorized_keys
